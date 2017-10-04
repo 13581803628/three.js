@@ -72,8 +72,6 @@ function animate() {
 ### 更改日志 ###
 
 [releases](https://github.com/mrdoob/three.js/releases)
-
-
 [gitter-badge]: https://badges.gitter.im/mrdoob/three.js.svg
 [gitter-badge-url]: https://gitter.im/mrdoob/three.js
 [npm-badge]: https://img.shields.io/npm/v/three.svg
