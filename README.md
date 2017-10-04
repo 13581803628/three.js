@@ -7,26 +7,26 @@ three.js
 [![Dependencies][dependencies-badge]][dependencies-badge-url]
 [![Dev Dependencies][devDependencies-badge]][devDependencies-badge-url]
 
-#### JavaScript 3D library ####
+#### JavaScript 3D 库 ####
 
-The aim of the project is to create an easy to use, lightweight, 3D library. The library provides &lt;canvas&gt;, &lt;svg&gt;, CSS3D and WebGL renderers.
+此项目的目标是创建一个易用、轻量的3D库。这个库支持 &lt;canvas&gt;、&lt;svg&gt;、CSS3D 和 WebGL 渲染器。
 
-[Examples](http://threejs.org/examples/) &mdash;
-[Documentation](http://threejs.org/docs/) &mdash;
+[示例](http://threejs.org/examples/) &mdash;
+[说明文档](http://threejs.org/docs/) &mdash;
 [Wiki](https://github.com/mrdoob/three.js/wiki) &mdash;
-[Migrating](https://github.com/mrdoob/three.js/wiki/Migration-Guide) &mdash;
-[Help](http://stackoverflow.com/questions/tagged/three.js)
+[正在迁移](https://github.com/mrdoob/three.js/wiki/Migration-Guide) &mdash;
+[帮助](http://stackoverflow.com/questions/tagged/three.js)
 
-### Usage ###
+### 用法 ###
 
-Download the [minified library](http://threejs.org/build/three.min.js) and include it in your html.
-Alternatively see [how to build the library yourself](https://github.com/mrdoob/three.js/wiki/Build-instructions).
+下载 [压缩库文件](http://threejs.org/build/three.min.js) 并将它包含在你的网页中。
+另外，查看 [怎么自己构建这个库](https://github.com/mrdoob/three.js/wiki/Build-instructions)。
 
 ```html
 <script src="js/three.min.js"></script>
 ```
 
-This code creates a scene, a camera, and a geometric cube, and it adds the cube to the scene. It then creates a `WebGL` renderer for the scene and camera, and it adds that viewport to the document.body element. Finally it animates the cube within the scene for the camera.
+下面的代码创建了一个场景、一个相机和一个几何立方体，并将这个几何空间放入场景中。然后，给这个场景和相机创建了一个 `WebGL` 渲染器，并在 document.body 中添加一个视窗。最后，用相机产生一个立方体随着场景的动画。
 
 ```javascript
 var scene, camera, renderer;
@@ -67,9 +67,9 @@ function animate() {
 }
 ```
 
-If everything went well you should see [this](https://jsfiddle.net/hfj7gm6t/).
+如果一切都运行良好的话你会看到 [这个画面](https://jsfiddle.net/hfj7gm6t/)。
 
-### Change log ###
+### 更改日志 ###
 
 [releases](https://github.com/mrdoob/three.js/releases)
 
